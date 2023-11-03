@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto:wght@100;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  margin: 50px 30px;
+}
+.container .card {
+  max-width: 1200px;
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container .card img {
+  width: 40%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.container .card .content {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 32px;
+  width: 100%;
+  overflow: hidden;
+}
+.container .card .content .description {
+  color: #474342;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.container .card .content .classification {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 24px;
+  width: 100%;
+  margin-top: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #474342;
+}
+.container .card .content .classification span {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  color: #C1122A;
+}
+.container .card .content .tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 13px;
+  width: 100%;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.container .card .content .tags .tag-container {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.container .card .content .tags .tag-container:last-child .tag-divider {
+  display: none;
+}
+.container .card .content .tags .tag-container .tag-divider {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #BFC5CE;
+}
+.container .card .content .location {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+  font-size: 16px;
+  color: #474342;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.container .card .content .location img {
+  width: 14px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    margin: 50px 2vw;
+  }
+  .container .card .content {
+    padding: 12px 24px;
+  }
+  .container .card .content .description, .container .card .content .classification {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .container .card .content .tags {
+    gap: 8px;
+  }
+  .container .card .content .tags .tag-container {
+    gap: 8px;
+  }
+}/*# sourceMappingURL=styles.css.map */
