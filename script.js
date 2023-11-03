@@ -2,7 +2,7 @@ const cardData = [
     {
         description: "Extra fresh fruits and vegetables",
         classification: "Apples, bananas, berries, citrus fruits like oranges and lemons",
-        imageUrl: "/images/illustration.png",
+        imageUrl: "images/illustration.png",
         tags: ["Fruits", "Vegetables", "Citrus", "Fruits", "Vegetables", "Citrus", "Fruits", "Vegetables", "Citrus"],
         location: "Newport Beach, CA, USA",
         price: 390
@@ -10,7 +10,7 @@ const cardData = [
     {
         description: "Fruits and vegetables are packed with essential vitamins, minerals, and nutrients that are essential for maintaining a healthy body and mind",
         classification: "Fruits and vegetables",
-        imageUrl: "/images/illustration.png",
+        imageUrl: "images/illustration.png",
         tags: ["Healthy eating", "Nutrition", "Fruits", "Vegetables", "Citrus", "Fruits", "Vegetables", "Citrus"],
         location: "Newport Beach, CA, USA",
         price: 9999
@@ -19,7 +19,7 @@ const cardData = [
     {
         description: "Extra fresh fruits and vegetables",
         classification: "Apples, bananas, berries, citrus fruits like oranges and lemons, tropical fruits like pineapple and mango, and stone fruits like peaches and plums",
-        imageUrl: "/images/illustration.png",
+        imageUrl: "images/illustration.png",
         tags: ["Fruits", "Vegetables", "Citrus", "Fruits", "Vegetables", "Citrus", "Fruits", "Vegetables", "Citrus"],
         location: "Newport Beach, CA, USA",
         price: 390
@@ -28,7 +28,7 @@ const cardData = [
     {
         description: "Fruits and vegetables are packed with essential vitamins, minerals, and nutrients",
         classification: "Fruits and vegetables",
-        imageUrl: "/images/illustration.png",
+        imageUrl: "images/illustration.png",
         tags: ["Healthy eating", "Nutrition", "Fruits", "Vegetables", "Citrus", "Fruits", "Vegetables", "Citrus"],
         location: "Newport Beach, CA, USA",
         price: 390
